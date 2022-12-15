@@ -5,13 +5,37 @@
 }
 
 body {
-  background: ;
+  background-color: black;
+  background-image: url(img/1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.362);
+  border-radius: 10px;
+  border: none;
+  color: rgb(0, 0, 0);
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.btn:focus {
+  outline: none;
 }
